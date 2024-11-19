@@ -16,7 +16,7 @@ in with pkgs; {
     pkgs.openssl
 
     # Needed for psycopg on MacOS... maybe? Maybe psycopg 3 doesn't need it.
-    pkgs.postgresql_13
+    # pkgs.postgresql_13
 
     # Needed for automating flyctl
     pkgs.jq
